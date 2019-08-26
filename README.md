@@ -14,5 +14,13 @@ Go to http://localhost:8000/ to view your site!
 Only edit within the user folder
 
 
+## Editing the Baseline
+First update all site variables in config/site.yaml
 
-When you are ready to create a new repo for your new site, delete the user/.git, initialize a new repo from inside user and follow basic instructions to push to a new repo.
+Several page types are included. Delete or duplicate to suit the new project.
+
+
+## Creating a new repo for the project
+When you are ready to create a new repo for your new site, delete the user/.git.
+
+Initialize a new repo from inside the user folder with `git init` and follow basic instructions to push to a new repo.
