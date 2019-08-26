@@ -1,0 +1,14 @@
+title: New Project
+slogan: Project Slogan
+author:
+    name: Sarah Baghdadi and Teal Bingham
+metadata:
+    description: 'New Project description'
+summary:
+    size: 1000
+facebook: 'https://www.facebook.com'
+twitter: 'https://www.twitter.com'
+email: 'email@newproject.com'
+phone: '812-NEW-PROJ'
+address: '123 Main Street, Bloomington, IN 47401'
+moto: 'Hero text is set in config/site.yaml'

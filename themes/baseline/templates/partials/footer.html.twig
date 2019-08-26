@@ -1,0 +1,33 @@
+<footer class="uk-padding">
+    <div class="uk-text-center uk-text-lead uk-margin-medium-bottom" style="color:inherit">
+        Add some hard coded footer text here if you want it.
+    </div>
+    <div class="uk-text-center uk-flex column" uk-grid>
+        <div class="uk-text-center uk-width-expand">
+          {{site.title}}
+          {% if site.address %}
+            <small>{{site.address}}</small>
+          {% endif %}
+        </div>
+        <div class="uk-text-lead uk-width-auto last">
+          {% if site.facebook %}
+            <a href="{{site.facebook}}" uk-icon="icon: facebook" class="uk-icon-button"></a>
+          {% endif %}
+          {% if site.twitter %}
+            <a href="{{site.twitter}}" uk-icon="icon: twitter" class="uk-icon-button"></a>
+          {% endif %}
+        </div>
+        <div class="uk-text-center uk-width-expand">
+          {% if site.email %}
+            <a href="mailto:{{site.email}}">
+                <span uk-icon="icon: mail"></span> {{site.email}}
+            </a>
+          {% endif %}
+            <div>
+                <a href="tel:{{site.phone}}">
+                    <span uk-icon="icon: phone"></span> {{site.phone}}
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>

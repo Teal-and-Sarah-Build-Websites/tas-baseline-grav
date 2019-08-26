@@ -1,0 +1,21 @@
+<div class="uk-container uk-margin-top uk-margin-bottom">
+    <div class="uk-grid article">
+          <div class="uk-width-1-3 uk-visible@m">
+              {% for image in page.media.images %}
+                  {{ image.cropZoom(600,600).html(page.header.image.title, page.header.image.alt) }}
+              {% endfor %}
+          </div>
+
+        <div class="uk-width-1-2@s">
+            <h2 class="uk-text-center uk-text-left@s">
+                <a href="{{page.url}}">{{ page.title }}</a>
+            </h2>
+            {# Displays on mobile #}
+            <hr class="uk-hidden@s">
+           {{ page.summary }}
+           {% if page.summary < page.content %}
+                <a href="{{ page.url }}">READ MORE</a>
+            {% endif %}
+        </div>
+    </div>
+</div>

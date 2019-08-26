@@ -1,0 +1,22 @@
+enabled: true
+from: webmail.contact.form@gmail.com
+from_name: Lake Lemon Guest Houses
+to:
+to_name: Lake Lemon Guest Houses
+queue:
+  enabled: false
+  flush_frequency: '* * * * *'
+  flush_msg_limit: 10
+  flush_time_limit: 100
+mailer:
+  engine: smtp
+  smtp:
+    server: smtp.gmail.com
+    port: 465
+    encryption: ssl
+    user: webmail.contact.form@gmail.com
+    password: wealthy vehicles obstacle refugee
+  sendmail:
+    bin: /usr/sbin/sendmail
+content_type: text/html
+debug: true
