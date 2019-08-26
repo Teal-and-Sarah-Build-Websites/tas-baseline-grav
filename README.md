@@ -4,17 +4,19 @@ Baseline structure. Starting point for our grav sites
 ## To use
 Clone the basic grav repo (https://github.com/getgrav/grav.git) and rename it whatever you want for the project
 
-In that project delete the user folder and clone this repo into the project, renaming this repo "user"
+From inside the project folder:
 
-From inside the project folder run `bin/grav install`
-then `php -S localhost:8000 system/router.php`
+* delete the user folder
+* clone this repo into the project, renaming this repo "user"
+* run `bin/grav install`
+* run `php -S localhost:8000 system/router.php`
 
 Go to http://localhost:8000/ to view your site!
 
-Only edit within the user folder
-
 
 ## Editing the Baseline
+Only edit within the user folder
+
 First update all site variables in config/site.yaml
 
 Several page types are included. Delete or duplicate to suit the new project.
