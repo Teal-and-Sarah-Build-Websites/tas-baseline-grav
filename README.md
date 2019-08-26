@@ -6,9 +6,9 @@ Clone the basic grav repo (https://github.com/getgrav/grav.git) and rename it wh
 
 Delete the user folder and clone this repo into the project, renaming this repo 'user'
 
-from the project folder run "bin/grav install"
+from the project folder run `bin/grav install`
 
-from the project folder run "php -S localhost:8000 system/router.php"
+from the project folder run `php -S localhost:8000 system/router.php`
 
 go to http://localhost:8000/ to view your site!
 
