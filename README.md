@@ -6,8 +6,8 @@ Clone the basic grav repo (https://github.com/getgrav/grav.git) and rename it wh
 
 From inside the project folder:
 
-* delete the user folder
-* clone this repo into the project, renaming this repo "user"
+* delete the user folder `rm -Rf user`
+* clone this repo into the project, renaming this repo "user" `mv tas-baseline-grav/ user`
 * run `bin/grav install`
 * run `php -S localhost:8000 system/router.php`
 
