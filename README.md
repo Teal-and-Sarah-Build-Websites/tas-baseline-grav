@@ -25,4 +25,4 @@ Several page types are included. Delete or duplicate to suit the new project.
 ## Creating a new Repo for your project
 When you are ready to create a new repo for your new site, delete the user/.git.
 
-Initialize a new repo from inside the user folder with `git init` and follow basic instructions to push to a new repo.
+Initialize a new repo from inside the user folder with `git init` and follow basic instructions to push to a new repo here(https://github.com/new).
