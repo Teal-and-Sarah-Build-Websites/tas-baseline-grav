@@ -8,10 +8,10 @@ From inside the project folder:
 
 * delete the user folder `rm -Rf user`
 * clone this repo into the project, renaming this repo "user" `mv tas-baseline-grav/ user`
-* run `bin/grav install`
 * run `php -S localhost:8000 system/router.php`
 
-Go to http://localhost:8000/ to view your site!
+Go to http://localhost:8000/ to view your site! 
+If site doesnt load you may need to run `bin/grav install` this is necessary of you cloned grav from Github instead of downloading it from getgrav.com
 
 
 ## Editing the Baseline
